@@ -7,7 +7,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-a11y",
-    "@storybook/addon-storysource",
+     "@storybook/addon-storysource",
     "@storybook/addon-knobs",
     "@storybook/addon-design-assets"
   ]
