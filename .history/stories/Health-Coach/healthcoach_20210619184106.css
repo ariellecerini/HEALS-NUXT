@@ -1,0 +1,50 @@
+   .chat {
+      /* layout*/
+      position: relative;
+      width: 100%;
+      /* max-width: 30em; */
+      text-align: left;
+      background-color: var(--white);
+      padding: 0.8em 0.5em 0.6em 1.1em;
+      border-radius: 0.2rem;
+      box-shadow: var(--shadowStyleFour);
+    }
+    
+   .chat::before {
+      /* layout*/
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border: 0.75rem solid transparent;
+      border-top: none;
+    
+      /* looks*/
+      filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.05));
+    }
+    
+   .chat.left-chat::before {
+      transform: rotate(-90deg);
+      left: -18px;
+      top: 18px;
+    }
+    
+   .chat.top-right-chat::before {
+      right: 29px;
+      top: -18px;
+      transform: scaleY(2);
+    }
+    
+   .chat.top-left-chat::before {
+      left: 29px;
+      top: -18px;
+      transform: scaleY(2);
+    }
+    
+   .chat.right-chat::before {
+      transform: rotate(90deg);
+      right: -18px;
+      top: 32px;
+    }
+  
+ 

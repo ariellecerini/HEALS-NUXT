@@ -1,0 +1,26 @@
+
+
+.nav-item {
+    box-shadow: none;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    padding-left: 10%;
+    margin-left: 20%;
+    width: 80%;
+    max-width: 250px;
+    text-align: left;
+    font: normal normal 600 20px/27px IBM Plex Sans;
+    letter-spacing: 0.2px;
+    color: var(--black);
+    
+}
+.nav-item.nav-item-active {
+    box-shadow: inset 4px 0px 5px #00000029;
+    border-radius: 13px 0px 0px 13px;
+    background-color: var(--appBgColor);
+    
+   }
+
+/* 'nav-item--active': this.active,
+'nav-item--rounded': this.rounded, */
+
